@@ -5,17 +5,16 @@ const myarray = [];
 
 
 
-while (myarray.reduce >= 50) {
+while ( myarray <= 50 ) {
 
-    let numerouser = prompt("Scrivi un numero");
+let numerouser = parseInt(prompt("Scrivi un numero"));
 
-    
-    if (myarray.reduce < 50){
-        myarray.push(numerouser);
-    }
-    
-}
+if(myarray >= 50){
+    let somma = numerouser + numerouser;
+
+    myarray.push(numerouser);
+} 
 
 
 console.log(myarray);
- 
+}
